@@ -2,7 +2,7 @@ import React from 'react';
 import CardItem from './CardItem';
 import './Cards.css';
 
-function Cards() {
+function Cards(props) {
   return (
     <div className='cards'>
       <h1>Check out these epic destinations!</h1>
@@ -10,36 +10,36 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
              <CardItem 
-            src="img-9.jpg"
-            text="Explore the hidden waterfall deep inside the Amazon Jungle"
-            label="Adventure"
-            path="/services/activity"
+             src="Devkund.png"
+             text="Explore the hidden waterfall deep inside the Jungle"
+             label="Adventure"
+            path="/place/1"
             ></CardItem>
             <CardItem 
-            src="img-2.jpg"
-            text="Travel through the Islands of Bali in a Private Cruise"
-            label="Luxury"
-            path="/services/activity"
+            src="Sondai.png"
+            text="Hidden gem in Karjat!"
+            label="Adventure"
+            path="/place/2"
             ></CardItem>
           </ul>
           <ul className='cards__items'>
             <CardItem 
-            src="img-4.jpg"
-            text="Experience Football on Top of the Himalayan Mountains"
+            src="Kalsubai.jpg"
+            text="Highest Peak of Maharashtra!"
             label="Adventure"
-            path="/services/activity"
+            path="/place/3"
             ></CardItem>
             <CardItem 
-            src="img-3.jpg"
-            text="Set a Sail in the Atlantic ocean visiting Uncharted Waters"
-            label="Mystery"
-            path="/services/activity"
+            src="Harishchandra.png"
+            text="Strongly Fortified "
+            label="Adventure"
+            path="/place/4"
             ></CardItem>
             <CardItem 
-            src="img-8.jpg"
-            text="Ride through the Sahara Desert on a guided camel tour"
-            label="Adrenaline"
-            path="/services/activity"
+           src="Aadrai.jpg"
+           text="Unexplored jungle Trek!"
+           label="Adventure"
+            path="/place/5"
             ></CardItem> 
           </ul>
         </div>

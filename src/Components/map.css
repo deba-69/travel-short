@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+    margin-top: 20px;
+}
+.map{
+    
+    height: 100%;
+    width: 90%;
+    margin: 10px 10px;
+    box-shadow: 4px 4px 12px rgb(128,128,128);
+}

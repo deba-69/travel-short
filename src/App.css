@@ -17,7 +17,7 @@
 }
 
 .services {
-  background-image: url('./Components/images/img-2.jpg');
+  background-image: url('../public/images/kothaligad.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@
 */
 /* Destination page*/
 .destination {
-  background-image: url('./Components/images/img-9.jpg');
+  background-image: url('../public/images/home.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -127,12 +127,13 @@ h4 {
 /*Sign up Page*/
 .form-modal__container {
   margin: 0 0.5rem;
+  height: fit-content;
 }
 .form-modal__wrapper {
   display: flex;
   justify-content: center;
   max-width: 900px;
-  height: 500px;
+  height: 600px;
   margin: 4rem auto;
 }
 
@@ -168,6 +169,7 @@ h4 {
 .sign-up__container > h2 {
  font-size: 3rem;
  margin-bottom: 2rem;
+ padding-top: 25px;
 }
 
 .sign-up__form {

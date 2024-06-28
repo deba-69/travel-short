@@ -72,7 +72,7 @@ video {
   padding-bottom: 0.6rem;
 }
 
-.search-container > input {
+.search-container > input,select {
   background-color: transparent;
   border: none;
   border-bottom: 2px solid #fff;

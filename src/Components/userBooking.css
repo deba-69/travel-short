@@ -1,0 +1,66 @@
+.trip-history {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .trip {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: .5s;
+    border-radius: 8px;
+  }
+  
+  .trip:hover{
+    box-shadow: 4px 4px 8px rgb(128,128,128);
+  }
+  
+  .trip h3 {
+    margin-top: 0;
+  }
+  
+  .trip p {
+    margin: 5px 0;
+    display: inline-block;
+    font-size: 17px;
+  }
+  
+  /* .trip button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .trip button:hover {
+    background-color: #f0f0f0;
+  } */
+  
+  .pay-now-btn {
+    background-color: #4caf50;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .cancel-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .row1{
+      display: flex;
+      justify-content: space-between;
+  }
+  .row1 > span{
+      margin-bottom: 3px;
+      font-size: 18px;
+      font-weight: 700;
+  }
+  h3{
+      font-size: 22px;
+      font-weight: 700;
+  }

@@ -1,0 +1,8 @@
+.search{
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.cards__item{
+    flex-direction: column;
+}

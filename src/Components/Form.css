@@ -1,0 +1,86 @@
+/* Form.css */
+
+/* Style for the container holding the form */
+/* Form.css */
+
+.background {
+    background-image: url('./images.jpeg'); /* Add your background image URL */
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112vh;
+    
+  }
+  /* Style for the form container */
+  .form-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Add transparency to the background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 120px;
+  }
+  
+  /* Style for form elements */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"],
+  .form-group input[type="number"],
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form-group input[type="radio"]
+  {
+    width: 15x;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .btn-cnfbook {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 30%;
+    cursor: pointer;
+  }
+  
+  .btn-cnfbook:hover {
+    background-color: #0056b3;
+    /* width: 20px; */
+  }
+  
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .row > span{
+    display: inline-block;
+    width: 150px;
+    line-height: 3;
+    font-size: 18px ;
+  }
+
+  .row > div
+  {
+    width: 100px;
+  }
